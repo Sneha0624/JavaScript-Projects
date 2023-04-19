@@ -1,0 +1,52 @@
+body {
+    background: url('./mainBcg.jpeg') center/cover fixed no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    font-family: Arial, Helvetica, sans-serif ;
+    user-select: none;
+}
+
+#container {
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+#head-text {
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+#head-count {
+    font-size: 160px;
+    color: #333333;
+    margin: 0;
+}
+
+#lowerBtn,#addBtn {
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    margin: 20px;
+    background-color: #0d2c54;
+    color: white;
+}
+
+#lowerBtn:hover {
+    background-color: #00a6ed;
+}
+
+#addBtn:hover {
+    background-color: #00a6ed;
+}

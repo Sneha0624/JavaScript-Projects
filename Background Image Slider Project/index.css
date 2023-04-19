@@ -1,0 +1,64 @@
+body {
+    background-color: #f2fdff;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    min-height: 60vh;
+    background: url("./car1.jpeg") center/cover no-repeat fixed;
+    border: 0.5rem solid #3e92cc;
+    border-radius: 0.5rem;
+    position: relative;
+    width: 70vw;
+}
+
+@media screen and (min-width: 768px) {
+    .img-container {
+        min-height: 80vh;
+    }
+}
+
+.btn-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    background: #3e92cc;
+    color: #f2fdff;
+    transform: translate(-50%, -50%);
+    border: 0.2rem solid #3e92cc;
+    font-size: 1.2rem;
+}
+
+.btn-left:hover {
+    border-color: #3e92cc;
+    background: #f2fdff;
+    color: #3e92cc;
+}
+
+.btn-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    background: #3e92cc;
+    color: #f2fdff;
+    font-size: 1.2rem;
+    transform: translate(50%, -50%);
+    border: 0.2rem solid #3e92cc;
+}
+
+.btn-right:hover {
+    border-color: #3e92cc;
+    background: #f2fdff;
+    color: #3e92cc;
+}

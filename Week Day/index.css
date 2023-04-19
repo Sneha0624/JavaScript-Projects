@@ -1,0 +1,21 @@
+body {
+    margin: 200px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#day {
+    color: goldenrod;
+    font-size: 25px;
+}
+
+#phrase {
+    color: lightsalmon;
+    font-size: 25px;
+}

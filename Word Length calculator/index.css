@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FA8072;
+}
+
+h1 {
+    margin: 50px;
+}
+
+input {
+    width: 350px;
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+    margin: 20px;
+}
+
+div {
+    background-color: white;
+    color: black;
+    margin: 100px auto 100px;
+    font-size: 20px;
+    width: 100px;
+}
+
+button {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,22 @@
+body {
+    background-color: aquamarine;
+    margin: 150px 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading {
+    font-size: 120px;
+    font-weight: bolder;
+    padding: 50px;
+    background-color: palevioletred;
+    color: white;
+}
+
+.time {
+    font-size: 120px;
+    font-weight: bolder;
+    padding: 50px;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>To Do List</h1>
+        <div class="input-container">
+            <input type="text" placeholder='Name...' class="input" value=''>
+            <button class="add-btn">Add Item</button>
+        </div>
+        <div class="item-container">
+            <div class="item-icons">
+                <div class="display"></div>
+                <a href="#" class="item-icon complete"><i class="far fa-check-circle"></i></a>
+                <a href="#" class="item-icon edit"><i class="far fa-edit"></i></a>
+                <a href="#" class="item-icon delete"><i class="far fa-times-circle"></i></a>
+            </div>
+        </div>
+        <button class="clr-btn">Clear Items</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
