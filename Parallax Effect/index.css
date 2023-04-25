@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95.8%;
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20vw;
+    z-index: 100;
+}
+
+.header h2 {
+    color: #359381;
+    font-size: 2vw;
+}
+
+.header .navigation {
+    display: flex;
+    gap: 2vw;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #359381;
+    padding: 0.5vw 1.2vw;
+    border-radius: 2vw;
+    margin: 0 0.8vw;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background-color: #359381;
+    color: white;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.text {
+    font-size: 5vw;
+    position: absolute;
+    color: #fff;
+    text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.2);
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.para {
+    position: relative;
+    background-color: #003329;
+    padding: 100px;
+}
+
+.para h2 {
+    font-size: 3vw;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.para p {
+    font-size: 1vw;
+    color: #fff;
+    font-weight: 300;
+}

@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    background-color: rgb(202, 174, 179);
+}
+
+.color-div {
+    border: 1px solid black;
+    width: 50%;
+    height: 45vh;
+    background-color: crimson;
+    opacity: 0.6;
+    filter: blur(20px);
+    border-radius: 2vw;
+}
+
+.text-div {
+    padding: 2vw 0 0 1vw;
+    background-color: white;
+    border: 1px solid blue;
+    width: 50%;
+    height: 30vh;
+    border-radius: 2vw;
+    position: relative;
+    top: -22vw;
+    left: 4vw;
+}
